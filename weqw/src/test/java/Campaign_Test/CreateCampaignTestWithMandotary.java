@@ -30,7 +30,7 @@ public class CreateCampaignTestWithMandotary extends Baseclass {
 	//@Parameters("browser")
 	//@Test(groups= {"SmokeTest"})
 	
-	@Test(priority=0,groups={"SmokeTest"})
+	@Test(priority=-1,groups={"SmokeTest"})
 	public void CreatecampTest() throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		
@@ -63,7 +63,7 @@ public class CreateCampaignTestWithMandotary extends Baseclass {
 //	@Parameters("browser")
 
 	//@Test(groups= {"RegressionTest"})
-	@Test(priority=1,groups={"SmokeTest"},dependsOnMethods={"CreatecampTest"})
+	@Test(priority=0,groups={"SmokeTest"},dependsOnMethods={"CreatecampTest"})
 	public void CampWithClosedDateTest() throws IOException, InterruptedException
 	{
 		JavaUtilities javaa=new JavaUtilities();

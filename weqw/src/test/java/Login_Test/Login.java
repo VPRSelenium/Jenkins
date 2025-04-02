@@ -25,7 +25,7 @@ import dev.failsafe.internal.util.Assert;
 public class Login extends Baseclass {
    // @Parameters("browser")
 	//@Test(groups= {"IntegrationTest"})
-	@Test(priority=2,invocationCount=0, threadPoolSize=3,groups= {"RegressionTest"})
+	@Test(priority=2,invocationCount=0, threadPoolSize=2,groups= {"RegressionTest"})
 	public  void Login() throws IOException, ParseException  {
 		// TODO Auto-generated method stub
 		
