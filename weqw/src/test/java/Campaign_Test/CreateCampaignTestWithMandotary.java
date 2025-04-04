@@ -30,7 +30,7 @@ public class CreateCampaignTestWithMandotary extends Baseclass {
 	//@Parameters("browser")
 	//@Test(groups= {"SmokeTest"})
 	
-	@Test(priority=-1,groups={"SmokeTest"})
+	@Test(priority=-2,groups={"SmokeTest"})
 	public void CreatecampTest() throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		
