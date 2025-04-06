@@ -5,6 +5,6 @@ public class ReadTest {
 	@Test
 	public void WriteTest()
 	{
-		System.out.println("wite test");
+		System.out.println("read test");
 	}
 }
