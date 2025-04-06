@@ -53,7 +53,9 @@ public class Baseclass {
 	{
 		System.out.println("Before Method");
 		System.out.println("Launch the browser");
-		String Browser=files.readindataproperti("browser");
+		//String Browser=files.readindataproperti("browser");
+		String Browser=System.getProperty("browser");
+
 		 if(Browser.equalsIgnoreCase("chrome"))
 
 		    {
@@ -82,6 +84,8 @@ public class Baseclass {
 		System.out.println("Before Method");
 		System.out.println("Login");
 		String URL=files.readindataproperti("Url");
+		//String UserName=System.getProperty("username");
+		//String Password=System.getProperty("password");
 		String UserName=files.readindataproperti("username");
 		String Password=files.readindataproperti("password");
 		driver.get(URL);
